@@ -26,11 +26,11 @@ Siga os passos abaixo para configurar o projeto no seu ambiente:
 1. **Crie uma pasta para a instalação do projeto**
 
 2. **Entre na pasta pelo GitBash**<br>
-    cd pasta_criada<br><br>
+    cd pasta_criada<br>
 
 3. **Clone o Repositório**<br>
    git clone https://github.com/paiaao/site_cores.git<br>
-   cd site_cores<br><br>
+   cd site_cores<br>
 
 3. **Abra o Arquivo HTML**<br>
     Abra o arquivo index.html diretamente no navegador<br><br><br>
