@@ -25,18 +25,17 @@ Um site simples que auxilia desenvolvedores front-end na escolha de paletas de c
 Siga os passos abaixo para configurar o projeto no seu ambiente:
 1. **Crie uma pasta para a instalação do projeto**
 
+2. **Entre na pasta pelo GitBash**<br>
+    cd pasta_criada<br><br>
 
-2. **Entre na pasta pelo GitBash**
-    cd pasta_criada
+3. **Clone o Repositório**<br>
+   git clone https://github.com/paiaao/site_cores.git<br>
+   cd site_cores<br><br>
 
-3. **Clone o Repositório**
-   git clone https://github.com/paiaao/site_cores.git
-   cd site_cores
+3. **Abra o Arquivo HTML**<br>
+    Abra o arquivo index.html diretamente no navegador<br><br><br>
 
-3. **Abra o Arquivo HTML**
-    Abra o arquivo index.html diretamente no navegador
-
-## 🌳 Fluxo de Trabalho (Branches)
+## 🌳 Fluxo de Trabalho (Branches)<br>
 
 | **Branch**            | **Descrição**                              |
 |-----------------------|--------------------------------------------|
