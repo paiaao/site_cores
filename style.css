@@ -1,0 +1,76 @@
+/* Estilos gerais */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    box-sizing: border-box;
+  }
+  
+  /* Header */
+  header h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  nav a {
+    margin: 0 8px; /* Espaço levemente maior entre botões */
+    padding: 6px 12px; /* Tamanho intermediário */
+    background-color: #3498db;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px; /* Bordas um pouco mais arredondadas */
+    font-size: 15px; /* Tamanho do texto ajustado */
+  }
+  
+  nav a:hover {
+    background-color: #2980b9;
+  }
+  
+  
+  
+  /* Container da roda de cores */
+  .color-wheel-container {
+    position: relative;
+    width: 500px; /*altera a largura da roda de cores*/
+    height: 500px; /*altera a altura da roda de cores*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+  }
+  
+  /* Estilo do canvas */
+  canvas {
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Texto explicativo */
+  p {
+    font-size: 1rem; 
+    color: #555;
+    margin-top: 1rem;
+  }
+  
+  /* Informação da cor */
+  #color-info {
+    margin-top: 1rem;
+    font-weight: bold;
+    color: #333;
+    font-size: 1.2rem;
+  }
