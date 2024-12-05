@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  #colorPicker {
+    margin: 20px 0;
+  }
+  
+  #colorSuggestions {
+    margin-top: 30px;
+  }
+  
+  .color-box {
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    margin: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+  }
+  
+  h2 {
+    margin-top: 20px;
+  }
+  
