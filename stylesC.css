@@ -5,6 +5,20 @@ body {
     padding: 20px;
   }
   
+  nav a {
+    margin: 0 8px;
+    padding: 6px 12px;
+    background-color: #3498db;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px; 
+    font-size: 15px; 
+  }
+  
+  nav a:hover {
+    background-color: #2980b9;
+  }
+  
   #colorPicker {
     margin: 20px 0;
   }
@@ -24,5 +38,9 @@ body {
   
   h2 {
     margin-top: 20px;
+<<<<<<< HEAD
   }
   
+=======
+  }
+>>>>>>> review

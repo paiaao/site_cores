@@ -25,8 +25,11 @@ function drawColorWheel() {
 // evento de hover
 canvas.addEventListener('mousemove', (event) => {
   const rect = canvas.getBoundingClientRect();
-  const x = event.clientX - rect.left;
-  const y = event.clientY - rect.top;
+  const scaleX = canvas.width / rect.width; // Proporção horizontal
+  const scaleY = canvas.height / rect.height; // Proporção vertical
+  const x = (event.clientX - rect.left) * scaleX;
+  const y = (event.clientY - rect.top) * scaleY;
+
 
   const imageData = ctx.getImageData(x, y, 1, 1).data;
   const [r, g, b] = imageData;
