@@ -1,0 +1,56 @@
+/* Estilos gerais */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    box-sizing: border-box;
+  }
+  
+  /* Header */
+  header h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  /* Container da roda de cores */
+  .color-wheel-container {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+  }
+  
+  /* Estilo do canvas */
+  canvas {
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Texto explicativo */
+  p {
+    font-size: 1rem; 
+    color: #555;
+    margin-top: 1rem;
+  }
+  
+  /* Informação da cor */
+  #color-info {
+    margin-top: 1rem;
+    font-weight: bold;
+    color: #333;
+    font-size: 1.2rem;
+  }
+  
