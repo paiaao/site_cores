@@ -45,3 +45,18 @@ body {
     background-color: #45a049;
     transform: scale(1.05);
 }
+.navigate-button2 {
+  background-color: #f01111;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.navigate-button2:hover {
+  background-color: #d26f6f;
+  transform: scale(1.05);
+}
