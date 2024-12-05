@@ -22,8 +22,8 @@ body {
   /* Container da roda de cores */
   .color-wheel-container {
     position: relative;
-    width: 300px;
-    height: 300px;
+    width: 500px; /*altera a largura da roda de cores*/
+    height: 500px; /*altera a altura da roda de cores*/
     display: flex;
     justify-content: center;
     align-items: center;
